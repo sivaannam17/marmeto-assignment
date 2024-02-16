@@ -1,0 +1,81 @@
+.newarriv{
+    font-weight: bold;
+}
+
+.brand{
+    border:2px solid rgb(14, 14, 140)
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav {
+    background-color: white;
+    overflow: hidden;
+  }
+
+  nav a {
+    float: left;
+    display: block;
+    color: rgb(9, 9, 9);
+    text-align: center;
+    padding: 12px 16px;
+    text-decoration: none;
+    margin-top: 25px;
+    background-color: white;
+
+  }
+  .navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  nav a:hover {
+    background-color:white;
+    text-decoration: underline blue;
+    color: black;
+  }
+
+  .mainHead{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .container2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .new-edition{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .center{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .align-items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .text-length{
+    font-size: 80;
+  }
